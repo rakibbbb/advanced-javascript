@@ -34,3 +34,8 @@ Any variable declared outside of the function belongs to the global scope.
 
 scope--> https://www.thatjsdude.com/jsConcepts/concepts/scope.html
 
+6. What is clouser?
+Ans: If you have a function within a function, execution of the inner function will create a scope inside of the outer function- a nested scope. Because the inside function scope is enclosed by the outer function scope, the inner function scope is called a closure (I invented this definition). Remember, to be a closure, you dont have to return a function, you just have to call a function inside a function.
+
+7. How can you put all the elements of an array into a string?
+Ans: By using join method.
