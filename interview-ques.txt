@@ -1,0 +1,23 @@
+1. What is the difference between null and undefined.
+2. What is the difference between double equal and triple equal.
+Ans: When we put double equal, then program will check only the value. 
+    If we put the triple equal, then program will check the value and the type of value.
+    Ex: const num1 = 3;
+        const num2 = '3';
+        if(num1 == num2){
+            console.log("Condition is true.");
+        }
+        else{
+            console.log("Condition is false.");
+        }
+    Here, output will be Condition is true. It only check the value.
+
+    const num1 = 3;
+        const num2 = '3';
+        if(num1 === num2){
+            console.log("Condition is true.");
+        }
+        else{
+            console.log("Condition is false.");
+        }
+    Here, output will be Condition is false. It was check the value and the value type. so it show's false.
