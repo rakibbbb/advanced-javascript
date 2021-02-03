@@ -21,3 +21,16 @@ Ans: When we put double equal, then program will check only the value.
             console.log("Condition is false.");
         }
     Here, output will be Condition is false. It was check the value and the value type. so it show's false.
+
+3. What is hoisting?
+Ans: Variable hoisting means the JavaScript engine moves the variable declarations to the top of the script.
+
+4. What is block scope?
+Ans: A block scope is the area within if, switch conditions or for and while loops. Generally speaking, whenever you see {curly brackets}, it is a block. In ES6, const and let keywords allow developers to declare variables in the block scope, which means those variables exist only within the corresponding block.
+
+5. What is global scope?
+Ans: A block scope is the area within if, switch conditions or for and while loops. Generally speaking, whenever you see {curly brackets}, it is a block. In ES6, const and let keywords allow developers to declare variables in the block scope, which means those variables exist only within the corresponding block.
+Any variable declared outside of the function belongs to the global scope.
+
+scope--> https://www.thatjsdude.com/jsConcepts/concepts/scope.html
+
