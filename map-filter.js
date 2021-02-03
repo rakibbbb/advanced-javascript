@@ -22,3 +22,7 @@ const bigger = number.filter(x => x > 7);
 console.log(bigger);
 const smaller = number.filter(x => x < 10);
 console.log(smaller);
+
+//javascript find
+const isThere = number.find(x => x > 10);
+console.log(isThere);
